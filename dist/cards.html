@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-slate-900 grid place-content-center h-screen space-y-3">
+    
+    <div class="" id="landscapeCard">
+      <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-sm shadow-white
+      flex items-center space-x-4">
+        <div >
+          <img class="h-12 w-12"
+            src="https://img.freepik.com/premium-vector/pw-linked-logo-business-company-identity-creative-letter-pw-logo-vector_754537-571.jpg"
+          />
+        </div>
+
+        <div>
+          <div class="text-2xl font-medium text-black">
+            Tailwind css
+            <p class="font-normal text-slate-500 text-base">by Devansh Kumar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="potraitCard">
+        <div class="bg-white max-w-sm mx-auto flex flex-col items-center p-4 rounded-lg 
+        space-y-6 shadow-cyan-50 shadow-md">
+            <div>
+                <img class="h-24 w-24 rounded-full"
+                src="https://img.freepik.com/premium-vector/pw-linked-logo-business-company-identity-creative-letter-pw-logo-vector_754537-571.jpg">
+            </div>
+
+            <div class="text-2xl font-medium text-center">
+                Tailwind css
+                <p class="font-normal text-slate-500 text-base"> by Devansh Kumar</p>
+            </div>
+        </div>
+    </div>
+
+    <button class="bg-sky-500 text-white my-2 text-base p-2 rounded-md
+    hover:bg-white hover:text-black"> Buy now !!</button>
+
+    <div class="bg-white rounded-md p-1 text-center text-2xl
+     md:bg-red-400  lg:bg-green-500 md:text-white"> Hello World !!</div>
+
+
+     <div>
+        <div class="bg-white max-w-sm mx-auto rounded-lg overflow-hidden md:max-w-2xl p-2">
+            <div class="md:flex items-center">
+                <div class="">
+                    <img class="h-48 w-full object-cover
+                    md:h-full md:w-96 rounded-lg"
+                    src="https://images.pexels.com/photos/3767825/pexels-photo-3767825.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                    
+                </div>
+                <div class="p-8">
+                    <div class="uppercase text-indigo-500 font-semibold ">
+                        An Awesome card
+                    </div>
+                    <a class="block mt-1 text-lg font-semibold hover:text-blue-700" href="#">
+                        Tailwind CSS is amazinng, once you understand 
+                        <span class="bg-yellow-400 px-[4px] pb-1">power</span> of it!
+                    </a>
+                    <p class="mt-2 text-slate-500">Lorem ipsum dolor, sit </p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+  </body>
+</html>
+
+
+
+<!-- npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch -->
